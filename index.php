@@ -1,5 +1,10 @@
 <?php
-/* 
+/*
+ *	WARNING
+ *		This is an old deprecated file.
+ *		We keep for those who just want a little function
+ *		But we recommend the YTBEid2video class
+ * 
  *  Coded by: <unknow>
  *  Refactored by: @nax_hh
  *  Version: 0.0.2
@@ -43,7 +48,7 @@ function youtube_data($url,$return='',$width='',$height='') {
 	}
 	//return embed iframe
 	if($return == 'embed'){
-		return '<iframe width="'.($width?$width:560).'" height="'.($height?$height:349).'" src="http://www.youtube.com/embed/'.$id.'?rel='.$rel.'" frameborder="0" allowfullscreen></iframe>';
+		return '<iframe width="'.($width?$width:560).'" height="'.($height?$height:349).'" src="http://www.youtube.com/embed/'.$id.'" frameborder="0" allowfullscreen></iframe>';
 	}
 	//return normal thumb
 	else if($return == 'thumb'){
