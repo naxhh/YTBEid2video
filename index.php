@@ -2,7 +2,7 @@
 /* 
  *  Coded by: <unknow>
  *  Refactored by: @nax_hh
- *  Version: 0.1
+ *  Version: 0.0.2
  *
  * 
  * function youtube data
